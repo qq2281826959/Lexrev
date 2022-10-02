@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "webpack serve --open",
-    "build": "react-scripts build",
+    "build": "webpack --config ./webpack.config.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

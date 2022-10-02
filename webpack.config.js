@@ -12,7 +12,7 @@ module.exports = {
   entry: getAbsoultePath('src/index.tsx'),
   output: {
     filename: 'index.js',
-    path: getAbsoultePath('dist'),
+    path: getAbsoultePath('server/dist'),
     clean: true,
   },
   module: {
